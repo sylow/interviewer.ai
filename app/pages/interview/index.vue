@@ -37,11 +37,10 @@
         <div class="field mt-4">
           <label class="label">What would you like to focus on?</label>
           <div class="control">
-            <textarea class="textarea"
-              placeholder="e.g. I want to prepare for system design questions focusing on scalability and microservices architecture"
-              v-model="description" rows="3"></textarea>
+            <input class="input" type="text"
+              placeholder="e.g. I want to prepare for system design questions focusing on scalability and microservices"
+              v-model="description">
           </div>
-          <p class="help">Describe what you'd like to practice or any specific topics</p>
         </div>
 
         <!-- START BUTTON -->
